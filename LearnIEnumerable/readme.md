@@ -10,8 +10,6 @@ Das foreach-Statement in C# verwendet IEnumerable, um durch die Elemente einer S
 
 Im folgenden Code haben wir einen Compiler-Fehler in der Program.cs. Da unsere `GamesLibrary` noch nicht `IEnumerable` implementiert, können wir noch nicht durch den `foreach` loop iterieren.
 
-Deine Aufgabe ist es auf der Klasse _GameLibrary IEnumerable_ und auf der Klasse _Game IEnumerator_ zu implementieren. **Die Aufgabe gilt als erfüllt, wenn das Programm kompiliert UND ausgeführt werden kann**, ohne dabei eine Änderung an der `Program.cs` Datei vorzunehmen.
-
 ## Zur Umsetzung
 
 Du musst zwei Schnittstellen implementieren:
@@ -35,3 +33,9 @@ Die IEnumerator-Schnittstelle wiederum enthält folgende Methoden/Eigenschaften:
 - MoveNext() => um `Current` zum nächsten Element zu wechseln.
   - Verändert `Current` so, dass es auf den nächsten Wert in der iteration zeigt und gibt **true** zurück, solange iteriert werden kann. Wenn die Collection zu Ende ist und wir keinen nächsten Wert haben, so muss **false** zurückgegeben werden.
 - Current => Ruft das aktuelle Element ab.
+
+## Definition of Done
+
+**Die Aufgabe gilt als erfüllt, wenn das Programm kompiliert UND ausgeführt werden kann**, ohne dabei eine Änderung an der `Program.cs` Datei vorzunehmen.
+
+Viel Erfolg!
